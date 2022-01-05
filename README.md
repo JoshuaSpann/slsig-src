@@ -1,5 +1,7 @@
 # SLSIG Website Source
 
+<img src='input/media/posts/1/favicon.png' style='height:1em;' title='SLSIG Icon' />
+
 The source repo for the SLSIG site.
 
 
@@ -8,11 +10,14 @@ The source repo for the SLSIG site.
 
 ## CONTRIBUTING
 
+The Publii static website editor is needed to edit/build the website.
+Some familiarity with [Publii](https://getpublii.com) and basic web dev is assumed.
+
 ### Getting Started
 
 For new contributors, perform a clone of the repository via your preferred Git client.
 You want to clone it to your main publii folder: `~/Documents/Publii/sites/`.
-`git clone https://github.com/SLSIG/website`
+`git clone https://github.com/SLSIG/website slsig`
 
 Once the repository has successfully downloaded, open Publii and ignore any prompts to create a new site.
 From the sites dropdown at the top of Publii, ensure SLSIG is the current site.
@@ -75,7 +80,7 @@ Also use external links for all links to social media and cloud storage sites.
 
 ### Contact Form
 
-The contact form uses `https://postmail.invotes.com/` which provides a key to use.
+The contact form uses [`https://postmail.invotes.com/`](https://postmail.invotes.com/) which provides a key to use.
 This allows 25 emails per day to be sent free.
 Any attempts over 25 will not be allowed.
 Postmail is used to send the simple, automated emails for the "Contact Us!" form.
