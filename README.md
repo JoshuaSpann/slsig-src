@@ -1,6 +1,6 @@
-# SLSIG Website Source
+<img src='input/media/posts/1/favicon.png' style='height:5em;max-width:100%;' title='SLSIG Icon' />
 
-<img src='input/media/posts/1/favicon.png' style='height:1em;' title='SLSIG Icon' />
+# SLSIG Website Source
 
 The source repo for the SLSIG site.
 
@@ -17,7 +17,7 @@ Some familiarity with [Publii](https://getpublii.com) and basic web dev is assum
 
 For new contributors, perform a clone of the repository via your preferred Git client.
 You want to clone it to your main publii folder: `~/Documents/Publii/sites/`.
-`git clone https://github.com/SLSIG/website slsig`
+`git clone https://github.com/SLSIG/slsig-src slsig`
 
 Once the repository has successfully downloaded, open Publii and ignore any prompts to create a new site.
 From the sites dropdown at the top of Publii, ensure SLSIG is the current site.
@@ -41,7 +41,7 @@ Wait around 1-5 minutes for Github to apply the updates to the website.
 
 ### Updating to Latest Changes
 
-Keep track of the latest site changes at `https://github.com/SLSIG/website`.
+Keep track of the latest site changes at `https://github.com/SLSIG/slsig-src`.
 Before you make any new changes, always run a `git pull` in git to ensure it syncs any new changes with yours.
 If git says you're already up to date, you can make changes without any worries or conflicts.
 If there are conflicts (you and another updated the same file with different changes), coordinate with the other contributor and merge any changes.
