@@ -1,0 +1,121 @@
+/*
+ * Put your custom CSS code here
+ */
+
+form * {
+ display: block; 
+}
+form label,
+form input {
+ margin: 0;
+ padding: 0;
+}
+
+header nav ul li a,
+.navbar__menu li a {
+  border-bottom: solid 4px rgba(0,0,0,0);
+}
+header nav ul li:hover a,
+.navbar__menu li:hover a {
+  filter: contrast(150%);
+  /*opacity: 0.5;*/
+}
+header nav ul li:nth-child(odd):hover a,
+.navbar__menu li:nth-child(odd):hover a  {
+  border-color: var(--color-button);
+  color: var(--color-button) !important;
+}
+header nav ul li:nth-child(even):hover a,
+.navbar__menu li:nth-child(even):hover a {
+  border-color: #1ed760;
+  color: #1ed760 !important;
+}
+/*
+header .search {
+  display: none;
+}
+*/
+.acronym {
+  
+  display: none;
+  
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  height: 2em;
+  /*opacity: 0.3;*/
+  position: relative;
+  text-shadow: 0 0.02em 3px rgba(0,0,0,0.4);
+  width: 2em;
+  z-index: 2;
+}
+.acronym .heading-acronym {
+  left: 1em;
+  top: -50em;
+}
+.acronym * {
+  position: absolute;
+}
+.acronym .s {
+  left: 0.4em;
+  top: 0.5em;
+}
+.acronym .l {
+  left: 0.8em;
+  top: 0.8em;
+}
+.acronym .s2 {
+  left: 1.1em;
+  top: 0.7em;
+}
+.acronym .i {
+  left: 1.6em;
+  top: 0.5em;
+}
+.acronym .g {
+  left: 1.8em;
+  top: 0.8em;
+}
+
+
+.image-union {
+  max-width: 8em;
+  position: relative;
+  width: 25em;
+}
+.image-union img {
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+}
+.image-union.image-top {
+  z-index: 9;
+}
+
+.logo {
+  background-image: url('../../media/posts/1/favicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*color: rgba(0,0,0,0) !important;*/
+  /*padding: 1em 3em;*/
+  padding-left: 3em;
+}
+
+.navbar__menu li {
+  margin: 1em !important;
+}
+
+@media screen and (orientation: landscape) {
+  .top.is-visible {
+    height: 3em;
+  }
+}
+:root {
+  --color-button: #00aad4;
+  --color-main: #222;
+}
+button {
+  background: var(--color-button);
+  border: var(--color-button);
+}
